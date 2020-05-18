@@ -2,12 +2,20 @@ import React from 'react';
 import './globals.css';
 import Header from './header.js';
 import TopCardList from './top-card-list.js';
+import Overview from './overview.js';
+import Switch from './switch.js';
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header>
+        
+        <Switch />
+        
+      </Header>
+      
       <TopCardList/>
+      <Overview />
     </>
     
   );
